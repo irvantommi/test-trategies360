@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Irvan Test</string>
+    <!-- activity_main-->
+    <string name="app">APP</string>
+    <string name="logo">LOGO</string>
+    <string name="hint_id">Email or Phone Number</string>
+    <string name="hint_pwd">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="create_account">Create Account</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or">or</string>
+    <string name="connect_with">Connect with</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <!-- activity_home-->
+    <string name="name_first">First Name</string>
+    <string name="name_last">Last Name</string>
+    <string name="logout">LOGOUT</string>
+    <string name="last_login">last login :</string>
+    <string name="home">HOME</string>
+    <string name="welcome">WELCOME</string>
+    <string name="phone_number">Phone Number</string>
+</resources>

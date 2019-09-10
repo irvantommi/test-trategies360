@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="parent_child">16dp</dimen>
+    <dimen name="child_child">8dp</dimen>
+    <dimen name="logo">100dp</dimen>
+</resources>

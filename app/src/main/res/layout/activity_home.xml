@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".view.activity.HomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:paddingTop="@dimen/parent_child"
+        android:paddingBottom="@dimen/parent_child"
+        android:text="@string/home"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="@string/welcome"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:orientation="vertical"
+        android:padding="@dimen/parent_child">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_name_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/name_first"
+            android:hint="@string/name_first"
+            android:inputType="textPersonName"
+            android:paddingBottom="@dimen/parent_child"
+            tools:targetApi="o" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_name_last"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/parent_child"
+            android:autofillHints="@string/name_last"
+            android:hint="@string/name_last"
+            android:inputType="textPersonName"
+            android:paddingBottom="@dimen/parent_child"
+            tools:targetApi="o" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/parent_child"
+            android:autofillHints="@string/phone_number"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:paddingBottom="@dimen/parent_child"
+            tools:targetApi="o" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/parent_child"
+            android:text="@string/last_login" />
+
+        <TextView
+            android:id="@+id/tv_last_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Tuesday, 10 September 2019" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/parent_child"
+            android:paddingStart="@dimen/parent_child"
+            android:paddingEnd="@dimen/parent_child"
+            android:text="@string/logout" />
+    </LinearLayout>
+</LinearLayout>
